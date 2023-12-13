@@ -8,6 +8,7 @@ function NavBar() {
     <Navbar className="bg-body-tertiary" style={{backgroundColor:'blue-200', padding:"4px"}} >
       <Container>
         <Navbar.Brand as={Link} to="/" style={{ paddingLeft: '1rem', paddingRight: '1rem' }}>Home</Navbar.Brand>
+        <Navbar.Brand as={Link} to="/addmovie" style={{ paddingLeft: '1rem', paddingRight: '1rem' }} >AddMovie</Navbar.Brand>
         <Navbar.Brand as={Link} to="/movieslist" >MoviesList</Navbar.Brand>
       </Container>
     </Navbar>
